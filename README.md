@@ -24,17 +24,12 @@ python -m venv flaskapp
 ```
 
 - **Activate the virtual environment**:
-    - On macOS/Linux:
     
-    ```bash
-    source flaskapp/bin/activate
-    ```
+```bash
+source flaskapp/bin/activate
+```
     
-    - On Windows:
-    
-    ```bash
-    flaskapp\Scripts\activate
-    ```
+
 
 - **Install dependencies**:
 
@@ -60,4 +55,3 @@ Install all Python dependencies with:
 pip install -r requirements.txt
 ```
 
-This guide simplifies the deployment process and sets up the web app for serving model predictions.
